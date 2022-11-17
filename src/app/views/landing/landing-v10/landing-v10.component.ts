@@ -1,24 +1,26 @@
-import {Component, OnInit} from "@angular/core";
+import {Component, OnInit} from '@angular/core';
 
 @Component({
-  selector: "app-landing-v10",
-  templateUrl: "./landing-v10.component.html",
-  styleUrls: ["./landing-v10.component.scss"]
+    selector: 'app-landing-v10',
+    templateUrl: './landing-v10.component.html',
+    styleUrls: ['./landing-v10.component.scss']
 })
 export class LandingV10Component implements OnInit {
 
-  backgroundColor = "landing-slate-gray";
-  showCustomizer = false;
+    backgroundColor = 'landing-gradient-purple-indigo';
+    showCustomizer = false;
 
-  constructor() {}
+    constructor() {
+    }
 
-  ngOnInit() {}
+    ngOnInit() {
+    }
 
-  changeBg(colorName) {
-    this.backgroundColor = "landing-" + colorName;
-  }
+    changeBg(colorName) {
+        this.backgroundColor = 'landing-' + colorName;
+    }
 
-  toggleCustomizer() {
-    this.showCustomizer = !this.showCustomizer;
-  }
+    toggleCustomizer() {
+        this.showCustomizer = !this.showCustomizer;
+    }
 }

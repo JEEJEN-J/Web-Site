@@ -7,7 +7,7 @@ import {AuthLayoutComponent} from "./shared/components/layouts/auth-layout/auth-
 const routes: Routes = [
   {
     path: "",
-    redirectTo: "parrainage",
+    redirectTo: "charess",
     pathMatch: "full",
 
   },
@@ -29,7 +29,7 @@ const routes: Routes = [
     component: LandingLayoutComponent,
     children: [
       {
-        path: "parrainage",
+        path: "charess",
         loadChildren: () =>
           import("./views/landing/landing.module").then((m) => m.LandingModule),
       },

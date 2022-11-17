@@ -21,6 +21,7 @@ a {
 .mobile_menu {
   height: 60px;
   align-items: center;
+
   a {
     height: 60px;
     width: 60px;
@@ -62,6 +63,7 @@ a {
 .home-logo {
   display: flex;
   align-items: center;
+
   a {
     display: inherit;
   }
@@ -87,29 +89,36 @@ nav {
     margin: 0;
     list-style: none;
     position: relative;
+
     li {
       display: inline-block;
+
       a {
         display: block;
         color: #fff;
         cursor: pointer;
       }
+
       ul {
         text-align: left;
+
         li {
           box-shadow: 0 1px 15px 1px rgba(0, 0, 0, 0.04),
-            0 1px 6px rgba(0, 0, 0, 0.04);
+          0 1px 6px rgba(0, 0, 0, 0.04);
           text-align: center;
           padding: 10px;
           cursor: pointer;
+
           &:first-child {
             border-top-right-radius: 10px;
             border-top-left-radius: 10px;
           }
+
           &:last-child {
             border-bottom-right-radius: 10px;
             border-bottom-left-radius: 10px;
           }
+
           ul {
             text-align: left;
             background: transparent;
@@ -249,4 +258,9 @@ span.navbar-toggler-icon .eva {
     align-items: center;
     padding: 0px 20px;
   }
+}
+
+
+.img-logo {
+  border-radius: 50px;
 }

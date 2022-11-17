@@ -10,7 +10,7 @@ const routes: Routes = [
     component: LandingV10Component
   },
   {
-    path: "blog",
+    path: "nouvelles",
     component: BlogDetailsPageComponent
   }
 ];
